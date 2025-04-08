@@ -25,6 +25,7 @@ function App() {
     )
 }
 
+
 function AppFeedbacks() {
     const {
         listSpinnerActivities,

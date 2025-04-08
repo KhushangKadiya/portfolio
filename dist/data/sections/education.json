@@ -35,19 +35,19 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-5.png",
+                        "img": "images/pictures/gtu.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "01/01/2015",
-                        "end": "12/01/2019"
+                        "start": "06/01/2020",
+                        "end": "06/01/2017"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Bachelor** in Computer Science",
-                            "info": "MIT",
-                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "title": "**Diploma** in Information Technology",
+                            "info": "Goverment Polytechnic Gandhinagar",
+                            "text": "Completed a focused Diploma program in Information Technology from Silver Oak University, emphasizing core technical and practical skills, including:<ul><li>Programming Fundamentals</li><li>Networking Basics</li><li>Database Concepts</li></ul><p>Built a strong foundation in IT through hands-on labs and coursework, preparing for advanced studies and real-world applications in the tech industry.</p>",
                             "tags": []
                         },
                         "es": {
@@ -71,59 +71,22 @@
                     }
                 },
 
-                {
-                    "icon": {
-                        "img": "images/pictures/place-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "01/01/2014",
-                        "end": "06/01/2014"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP Development **Nanodegree**",
-                            "info": "Udacity",
-                            "text": "Completed an intensive Nanodegree program focused on PHP development, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern PHP practices.",
-                            "tags": ["PHP 8+", "Laravel", "MongoDB"]
-                        },
-                        "es": {
-                            "title": "Nanogrado en **Desarrollo PHP**",
-                            "info": "Udacity",
-                            "text": "Completé un programa intensivo de Nanogrado centrado en el desarrollo de PHP, cubriendo habilidades esenciales como la programación backend, la gestión de bases de datos y el despliegue de aplicaciones web. Este curso proporcionó una base sólida en las prácticas modernas de PHP.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Nanodiplôme en **Développement PHP**",
-                            "info": "Udacity",
-                            "text": "Terminé un programme intensif de Nanodiplôme axé sur le développement PHP, couvrant des compétences essentielles telles que la programmation backend, la gestion de bases de données et le déploiement d'applications web. Ce cours a fourni une base solide dans les pratiques modernes de PHP.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "PHP 개발 **나노디그리**",
-                            "info": "Udacity",
-                            "text": "PHP 개발에 중점을 둔 집중 나노디그리 프로그램을 완료하여 백엔드 프로그래밍, 데이터베이스 관리 및 웹 애플리케이션 배포와 같은 필수 기술을 배웠습니다. 이 과정은 현대 PHP 실무에 대한 탄탄한 기초를 제공했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
 
                 {
                     "icon": {
-                        "img": "images/pictures/place-6.png",
+                        "img": "/images/pictures/silveroak.jpg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
                         "start": "09/01/2020",
-                        "end": "06/01/2022"
+                        "end": "06/01/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Master's** in Artificial Intelligence",
-                            "info": "University of Paris",
-                            "text": "<p>Completed a comprehensive Master's program focused on cutting-edge AI topics, including:</p> <ul><li>Machine Learning</li><li>Natural Language Processing (NLP)</li><li>Neural Networks</li></ul> <p class='mt-3'>Applied research and theory to develop practical AI-driven solutions, combining academic excellence with real-world innovation.</p>",
+                            "title": "**Bachelor's** in Information Technology",
+                            "info": "Silver Oak University",
+                            "text": "<p>Completed a comprehensive Bachelor's program in Information Technology from Silver Oak University, covering essential topics such as:</p> <ul><li>Web Development & Design</li><li>Database Management System</li><li>Software Engineer & Algorithms</li></ul> <p class='mt-3'>Gained practical experience through real-world projects and research, combining academic foundations with hands-on implementation in modern tech environments.</p>",
                             "tags": []
                         },
                         "es": {
@@ -149,7 +112,7 @@
 
                 {
                     "icon": {
-                        "img": "images/pictures/place-4.png",
+                        "img": "images/pictures/gtu.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },

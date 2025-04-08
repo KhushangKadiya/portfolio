@@ -15,21 +15,22 @@ function ArticleTestimonials({ data }) {
     const parsedItems = parser.parseArticleItems(items)
 
     return(
-        <Article className={`article-testimonials`} title={ parsedData.title }>
-            <Swipeable>
-                {parsedItems.map((item, index) => (
-                    <SwiperSlide className={`custom-swiper-slide`} key={index}>
-                        <Testimonial quote={item.text}
-                                     avatar={item.img}
-                                     fallbackIcon={item.faIcon}
-                                     fallbackIconColors={item.faIconColors}
-                                     author={item.value}
-                                     href={item.firstLink?.href}
-                                     role={item.info}/>
-                    </SwiperSlide>
-                ))}
-            </Swipeable>
-        </Article>
+        <></>
+        // <Article className={`article-testimonials`} title={ parsedData.title }>
+        //     <Swipeable>
+        //         {parsedItems.map((item, index) => (
+        //             <SwiperSlide className={`custom-swiper-slide`} key={index}>
+        //                 <Testimonial quote={item.text}
+        //                              avatar={item.img}
+        //                              fallbackIcon={item.faIcon}
+        //                              fallbackIconColors={item.faIconColors}
+        //                              author={item.value}
+        //                              href={item.firstLink?.href}
+        //                              role={item.info}/>
+        //             </SwiperSlide>
+        //         ))}
+        //     </Swipeable>
+        // </Article>
     )
 }
 

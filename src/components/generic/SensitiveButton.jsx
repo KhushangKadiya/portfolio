@@ -27,7 +27,7 @@ function SensitiveButton({ onClick, children, className, tooltipText, disabled }
     }
 
     return (
-        <button className={`sensitive-button ${className}`}
+       <button className={`sensitive-button ${className}`}
                 data-tooltip={tooltipText}
                 type={`button`}
                 disabled={disabled}

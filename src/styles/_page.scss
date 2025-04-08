@@ -17,10 +17,12 @@ body {
 }
 
 body.body-with-image {
-    background-image: var(--theme-bg);
+    // background-image: var(--theme-bg);
+    // background-color: blue;
+    // background-image: url('/public/images/pictures/df.png') !important;
     background-size: cover;
     background-position: center;
-    background-color: var(--theme-bg-color)!important;
+    // background-color: var(--theme-bg-color)!important;
 }
 
 body.body-no-scroll {

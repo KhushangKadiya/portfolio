@@ -17,35 +17,36 @@ function DropdownPicker({availableOptions, selectedOption, size, onOptionSelecte
     }
 
     return (
-        <div className={`dropdown-picker-wrapper`}>
-            {availableOptions.length > 0 && (
-                <Dropdown className={`dropdown-picker`}>
-                    <Dropdown.Toggle variant={`transparent`} className={`dropdown-picker-toggle`} onClickCapture={_onToggleClicked}>
-                        <MenuItem label={selectedOption.label}
-                                  icon={selectedOption.imgUrl || selectedOption.faIcon}
-                                  faSuffix={!shouldBehaveAsButton ? "fa-solid fa-caret-down" : null}
-                                  hoverAnimation={true}
-                                  tooltip={tooltip}
-                                  size={size}
-                                  shrink={shrink}/>
-                    </Dropdown.Toggle>
+        <></>
+        // <div className={`dropdown-picker-wrapper`}>
+        //     {availableOptions.length > 0 && (
+        //         <Dropdown className={`dropdown-picker`}>
+        //             <Dropdown.Toggle variant={`transparent`} className={`dropdown-picker-toggle`} onClickCapture={_onToggleClicked}>
+        //                 <MenuItem label={selectedOption.label}
+        //                           icon={selectedOption.imgUrl || selectedOption.faIcon}
+        //                           faSuffix={!shouldBehaveAsButton ? "fa-solid fa-caret-down" : null}
+        //                           hoverAnimation={true}
+        //                           tooltip={tooltip}
+        //                           size={size}
+        //                           shrink={shrink}/>
+        //             </Dropdown.Toggle>
 
-                    {!shouldBehaveAsButton && (
-                        <Dropdown.Menu className={`dropdown-menu`}>
-                            {availableOptions.map((option, key) => (
-                                <Dropdown.Item key={key} className={`dropdown-item`} onClick={() => _selectOption(option)}>
-                                    <MenuItem label={option.label}
-                                              icon={option.imgUrl || option.faIcon}
-                                              size={1}
-                                              style={{height: '35px'}}
-                                              shrink={false}/>
-                                </Dropdown.Item>
-                            ))}
-                        </Dropdown.Menu>
-                    )}
-                </Dropdown>
-            )}
-        </div>
+        //             {!shouldBehaveAsButton && (
+        //                 <Dropdown.Menu className={`dropdown-menu`}>
+        //                     {availableOptions.map((option, key) => (
+        //                         <Dropdown.Item key={key} className={`dropdown-item`} onClick={() => _selectOption(option)}>
+        //                             <MenuItem label={option.label}
+        //                                       icon={option.imgUrl || option.faIcon}
+        //                                       size={1}
+        //                                       style={{height: '35px'}}
+        //                                       shrink={false}/>
+        //                         </Dropdown.Item>
+        //                     ))}
+        //                 </Dropdown.Menu>
+        //             )}
+        //         </Dropdown>
+        //     )}
+        // </div>
     )
 }
 

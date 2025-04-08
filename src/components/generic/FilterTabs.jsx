@@ -10,18 +10,7 @@ function FilterTabs({items, selectedItemId, onSelect}) {
         }
     }
 
-    return (
-        <div className="filter-tabs">
-            <div className={`btn-group`} role={`group`}>
-                {items.map((item, key) => (
-                    <FilterTabButton key={key}
-                                     item={item}
-                                     isSelected={item.id === selectedItemId}
-                                     onClick={_onTabClicked}/>
-                ))}
-            </div>
-        </div>
-    )
+   
 }
 
 function FilterTabButton({item, isSelected, onClick}) {

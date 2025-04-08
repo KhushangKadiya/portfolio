@@ -17,15 +17,16 @@ function InlineList({ items, textClass }) {
     return (
         <ul className={`inline-list`}>
             {items.map((item, key) => (
-                <li className={`inline-list-item ${textClass}`} key={key}>
-                    {item.href && (
-                        <ExternalLink href={item.href} className={`inline-list-link`}>
-                            <InlineListLinkBody item={item} shortenedMode={shortenedMode}/>
-                        </ExternalLink>
-                    )}
+                <></>
+                // <li className={`inline-list-item ${textClass}`} key={key}>
+                //     {item.href && (
+                //         <ExternalLink href={item.href} className={`inline-list-link`}>
+                //             <InlineListLinkBody item={item} shortenedMode={shortenedMode}/>
+                //         </ExternalLink>
+                //     )}
 
-                    {!item.href && (<InlineListLinkBody item={item} shortenedMode={shortenedMode}/>)}
-                </li>
+                //     {!item.href && (<InlineListLinkBody item={item} shortenedMode={shortenedMode}/>)}
+                // </li>
             ))}
         </ul>
     )

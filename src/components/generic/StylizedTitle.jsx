@@ -5,10 +5,11 @@ function StylizedTitle({text, classList}) {
     const HeadingTag = classes.tag
 
     return (
-        <HeadingTag className={`stylized-title d-flex align-items-center fw-bold ` + classList}>
-            <span className={`text-highlight ${classes.lineTag} ms-1 me-2 pe-1`}>|</span>
-            <span className={`mb-0`} dangerouslySetInnerHTML={{__html: text}}/>
-        </HeadingTag>
+        <></>
+        // <HeadingTag className={`stylized-title d-flex align-items-center fw-bold ` + classList}>
+        //     <span className={`text-highlight ${classes.lineTag} ms-1 me-2 pe-1`}>|</span>
+        //     <span className={`mb-0`} dangerouslySetInnerHTML={{__html: text}}/>
+        // </HeadingTag>
     )
 }
 

@@ -4,28 +4,28 @@
             "title": "Welcome!",
             "title_menu": "About me",
             "title_long_prefix": "Hello...",
-            "title_long": "I'm **Mark Choi!**"
+            "title_long": "I'm **Khushang Kadia!**"
         },
 
         "es": {
             "title": "¡Saludos!",
             "title_menu": "Sobre mí",
             "title_long_prefix": "Hola...",
-            "title_long": "Soy **Mark Choi!**"
+            "title_long": "Soy **Khushang Kadia!**"
         },
 
         "fr": {
             "title": "Salut !",
             "title_menu": "À propos",
             "title_long_prefix": "Salut...",
-            "title_long": "Je suis **Mark Choi!**"
+            "title_long": "Je suis **Khushang Kadia!**"
         },
 
         "ko": {
             "title": "환영합니다!",
             "title_menu": "소개",
             "title_long_prefix": "안녕하세요...",
-            "title_long": "저는 **Mark Choi** 입니다!"
+            "title_long": "저는 **Khushang Kadia** 입니다!"
         }
     },
 
@@ -46,7 +46,7 @@
 
             "items": [
                 {
-                    "value": "Cupertino – CA",
+                    "value": "Ahmedabad",
                     "links": [
                         {"href": null}
                     ],
@@ -57,9 +57,9 @@
                     }
                 },
                 {
-                    "value": "mark.choi@dev.com",
+                    "value": "khushangkadia@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@dev.com"}
+                        {"href": "mailto:khushangkadia@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -100,7 +100,7 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text": "<p>I’m a PHP developer with <b>over a decade</b> of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"},
+                        "en": {"text": "<p>I’ve contributed to several eCommerce websites and web applications, working primarily as a backend developer using Laravel and PHP. My experience also includes integrating third-party APIs using cURL and enhancing platforms built with technologies like WordPress, React.js, and Vite.</p><p>I’ve been involved in developing core modules, ensuring smooth functionality, and supporting seamless frontend-backend interactions. These projects have helped me strengthen my ability to adapt quickly, work across various tech stacks, and deliver efficient, production-ready solutions.</p><p>I look forward to collaborating <b>with you!</b>"},
                         "es": {"text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"},
                         "fr": {"text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"},
                         "ko": {"text": "<p>저는 백엔드 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 <b>10년 이상의</b> 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"}
@@ -266,8 +266,8 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Playing guitar",
-                            "info": "Exploring different genres and improving my skills."
+                            "title": "Web Development",
+                            "info": "Building dynamic, high-performance websites and web applications."
                         },
                         "es": {
                             "title": "Tocar la guitarra",
@@ -293,8 +293,8 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "AI video editing",
-                            "info": "Learning to use AI tools to enhance my videos."
+                           "title": "Web Designing",
+                            "info": "Creating visually appealing and user-friendly website layouts."
                         },
                         "es": {
                             "title": "Edición de video con IA",
@@ -320,8 +320,8 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Illustration",
-                            "info": "Practicing digital art and exploring new styles."
+                            "title": "A Quick Learner",
+                            "info": "Eager to grasp new technologies and adapt to changing project needs efficiently."
                         },
                         "es": {
                             "title": "Ilustración",
@@ -347,8 +347,8 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Investing",
-                            "info": "Learning the basics of stocks and personal finance."
+                            "title": "Time Management",
+                            "info": "Skilled at organizing tasks and meeting deadlines effectively."
                         },
                         "es": {
                             "title": "Invertir",
@@ -374,8 +374,8 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "UX design",
-                            "info": "Studying user experience principles."
+                            "title": "Database Management",
+                            "info": "Managing and optimizing databases to ensure smooth performance and security."
                         },
                         "es": {
                             "title": "Diseño UX",
@@ -401,8 +401,8 @@
                     "value": null,
                     "locales": {
                         "en": {
-                            "title": "Photo editing",
-                            "info": "Enhancing photos through creative editing techniques."
+                            "title": "Version Control (Git)",
+                            "info": "Using Git for managing code, collaborating with teams, and handling project versioning."
                         },
                         "es": {
                             "title": "Edición de fotos",

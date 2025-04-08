@@ -1,9 +1,9 @@
 {
     "locales": {
         "en": {
-            "title": "Portfolio",
+            "title": "Projects",
             "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
+            "title_long": "My **Projects**"
         },
 
         "es": {
@@ -64,20 +64,19 @@
 
             "items": [
                 {
-                    "categoryId": "utilities",
+                   "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-3.png",
+                        "img": "images/pictures/coco.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://coco-unicorn.com/"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
+                        "youtubeVideo": null,
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -86,9 +85,10 @@
 
                     "locales": {
                         "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
+                                "title": "Coco Unicorn",
+                        "text": "An <b>E-Commerce</b> platform built using <b>PHP</b> for backend logic and <b>MySQL</b> for efficient data storage and management. Focused on delivering a seamless shopping experience with secure transactions and dynamic content management.",
+                        "tags": ["PHP", "Backend", "MySQL"]
+
                         },
                         "es": {
                             "title": "BrainPulse",
@@ -109,38 +109,31 @@
                 },
 
                 {
-                    "categoryId": "apps",
+                    "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-7.png",
+                        "img": "images/pictures/artmidas.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://www.artsmidas.com/"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
+                        "youtubeVideo": null,
                         "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
+                            "aspectRatio": null,
+                            "images": []
                         }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
+                            "title": "Artmidas",
+                            "text": "An <b>eCommerce</b> website developed using the <b>Laravel</b> framework, focused on providing a smooth user experience, secure transactions, and efficient backend management for product handling and order processing.",
+                            "tags": ["Laravel", "Backend", "eCommerce"]
+                          },
                         "es": {
                             "title": "MailM8",
                             "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
@@ -160,35 +153,30 @@
                 },
 
                 {
-                    "categoryId": "apps",
+                    "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-6.png",
+                        "img": "images/pictures/shione.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "http://www.shipone.net/"}
                     ],
 
                     "media": {
                         "youtubeVideo": null,
                         "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
+                            "aspectRatio": null,
+                            "images": []
                         }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
+                            "title": "Ship to Sage API Integration",
+                            "text": "Developed a custom <b>API integration</b> using <b>PHP</b> and <b>cURL</b> to connect with the Ship to Sage system. Focused on smooth data exchange and ensuring secure, reliable communication between platforms.",
+                            "tags": ["PHP", "API Integration", "cURL"]
                         },
                         "es": {
                             "title": "Stackers",
@@ -211,17 +199,17 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-1.png",
+                        "img": "images/pictures/iplan.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://iplan.planmalaysia.gov.my/"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "youtubeVideo": null,
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -230,10 +218,10 @@
 
                     "locales": {
                         "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
+                            "title": "Iplan Malaysia",
+                            "text": "A web application built using <b>React.js</b> for the frontend and <b>Laravel</b> with <b>Vite</b> for the backend and build process. Contributed to several key modules, enhancing functionality and ensuring seamless integration between components.",
+                            "tags": ["React.js", "Laravel", "Vite"]
+                          },
                         "es": {
                             "title": "SmartCash",
                             "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
@@ -253,16 +241,15 @@
                 },
 
                 {
-                    "categoryId": "apps",
+                    "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-2.png",
+                        "img": "images/pictures/PES.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://pranileducation.com/"}
                     ],
 
                     "media": {
@@ -275,10 +262,10 @@
 
                     "locales": {
                         "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
+                            "title": "Pranil Education Services",
+                            "text": "A web-based platform developed using <b>PHP</b>, aimed at managing educational services and student interactions efficiently. Focused on building a clean backend structure and user-friendly features.",
+                            "tags": ["PHP", "Backend", "Education"]
+                          },                          
                         "es": {
                             "title": "Snappy",
                             "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
@@ -300,13 +287,13 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-5.png",
+                        "img": "images/pictures/Karv.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://karvdm.com/"}
                     ],
 
                     "media": {
@@ -319,9 +306,9 @@
 
                     "locales": {
                         "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
+                            "title": "Karv Digital Media & Event Solutions",
+  "text": "A custom platform developed using <b>PHP</b> to support digital media and event management solutions. Built with a focus on backend functionality to manage content, client data, and service workflows efficiently.",
+  "tags": ["PHP", "Backend", "Event Management"]
                         },
                         "es": {
                             "title": "Sweet Scoops",
@@ -337,139 +324,6 @@
                             "title": "Sweet Scoops",
                             "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
                             "tags": ["WooCommerce", "음식", "디저트"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
                         }
                     }
                 }

@@ -143,18 +143,32 @@ function SectionHeader({section}) {
     }
 
     return (
-        <div className={`section-header w-100 px-0 px-md-3 text-center ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`}`}>
+        <div className={`section-header w-100 px-0 px-md-3 ${prefix ? `mt-0` : `mt-1 mt-sm-2 mt-lg-4`}`}>
             {prefix && (
-                <div className={`fw-bold text-muted lead-2 font-family-headings mb-2`}>
-                    <FaIcon className={`me-2 opacity-50`} iconName={'fa-solid fa-cubes'}/>
-                    <span dangerouslySetInnerHTML={{__html:prefix || ``}}/>
+                <div className="d-flex justify-content-between align-items-center flex-wrap mb-2">
+                    <div className="fw-bold text-muted lead-2 font-family-headings d-flex align-items-center">
+                        <FaIcon className="me-2 opacity-50" iconName={'fa-solid fa-cubes'} />
+                        <span dangerouslySetInnerHTML={{ __html: prefix || `` }} />
+                    </div>
+    
+                    {/* {window.location.hash === '#contact' && (
+                        <a
+                        href="/react-portfolio-template/resume.pdf"
+                        download
+                        className="btn btn-xl btn-highlight mt-2 mt-md-0 text-dark">
+                         My Resume
+                      </a>
+                    )} */}
                 </div>
             )}
-
-            <h3 className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0`}
-                dangerouslySetInnerHTML={{__html: title}}/>
+    
+            <h3
+                className={`fw-bold ${isBreakpoint('lg') ? 'lead-4' : ''} mx-4 mb-0 text-center`}
+                dangerouslySetInnerHTML={{ __html: title }}
+            />
         </div>
     )
+    
 }
 
 function SectionContent({articles}) {

@@ -55,9 +55,9 @@
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "9624823787",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:9624823787"}
                     ],
                     "icon": {
                         "img": null,
@@ -73,9 +73,9 @@
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "khushangkadia@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:khushangkadia@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -89,7 +89,7 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@khushangkadia",
                     "links": [
                         {"href": "https://linkedin.com"}
                     ],
@@ -102,24 +102,8 @@
                         "en": {"title": "Linkedin"}
                     }
                 },
-
                 {
-                    "value": "Mark Choi",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
+                    "value": "Khushang Kadia",
                     "links": [
                         {"href": "https://instagram.com"}
                     ],
@@ -130,21 +114,6 @@
                     },
                     "locales": {
                         "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@markchoi",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
                     }
                 }
             ]
